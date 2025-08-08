@@ -93,7 +93,7 @@ const WritingAssistant = () => {
             className="mt-6 w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 disabled:bg-blue-300"
             disabled={isLoading}
           >
-            {isLoading ? 'Generating...' : 'Generate'}
+            {isLoading ? 'Generating... Please Wait' : 'Generated.'}
           </button>
         </div>
         {/* Add dark mode classes */}
